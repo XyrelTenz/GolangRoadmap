@@ -1,11 +1,12 @@
 package main
 
 import (
-	"roadmapgolang/DSA"
+	"roadmapgolang/Playground"
 )
 
 func main() {
 
 	// miniProjects.BankSystem(&miniProjects.BankStruct{})
-	DSA.Fibonnaci()
+	// DSA.Fibonnaci()
+	Playground.Validation()
 }
