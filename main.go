@@ -1,8 +1,11 @@
 package main
 
-import "roadmapgolang/miniProjects"
+import (
+	"roadmapgolang/DSA"
+)
 
 func main() {
 
-	miniProjects.BankSystem(&miniProjects.BankStruct{})
+	// miniProjects.BankSystem(&miniProjects.BankStruct{})
+	DSA.Fibonnaci()
 }
