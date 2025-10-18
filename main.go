@@ -1,12 +1,14 @@
 package main
 
-import (
-	"fmt"
-
-	"roadmapgolang/day1"
-)
+import "fmt"
 
 func main() {
-	calc := day1.Calculators{A: 5, B: 3}
-	fmt.Println(calc.Add())
+	arr := [...]int{
+		1, 2, 3, 4, 5,
+	}
+
+	for _, v := range arr {
+		fmt.Print(v)
+	}
+
 }
