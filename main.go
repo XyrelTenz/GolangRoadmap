@@ -1,14 +1,8 @@
 package main
 
-import "fmt"
+import "roadmapgolang/miniProjects"
 
 func main() {
-	arr := [...]int{
-		1, 2, 3, 4, 5,
-	}
 
-	for _, v := range arr {
-		fmt.Print(v)
-	}
-
+	miniProjects.BankSystem(&miniProjects.BankStruct{})
 }
