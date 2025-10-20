@@ -1,12 +1,18 @@
 package main
 
 import (
-	"roadmapgolang/Playground"
+	"fmt"
 )
 
 func main() {
 
 	// miniProjects.BankSystem(&miniProjects.BankStruct{})
 	// DSA.Fibonnaci()
-	Playground.Validation()
+	// Playground.Validation()
+
+	defer func() {
+		fmt.Println("Second")
+	}()
+	fmt.Println("First")
+
 }
