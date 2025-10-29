@@ -8,7 +8,6 @@ func main() {
         fmt.Println("Classic loop:", i)
     }
 
-    // For loop as a "while" loop
     sum := 1
     for sum < 5 {
         sum += sum
