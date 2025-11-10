@@ -1,0 +1,94 @@
+{
+    "workbench.iconTheme": "catppuccin-latte",
+    "breadcrumbs.enabled": false,
+    "editor.minimap.enabled": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "workbench.tree.indent": 30,
+    "workbench.list.smoothScrolling": true,
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.editor.showTabs": "none",
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "hidden",
+    "explorer.confirmDelete": false,
+    "explorer.confirmDragAndDrop": false,
+    "git.decorations.enabled": false,
+    "explorer.decorations.colors": true, //Decorations
+    "explorer.decorations.badges": false,
+    "workbench.statusBar.visible": false,
+    "editor.stickyScroll.enabled": false,
+    "editor.fontFamily": "FiraCode Nerd Font Propo",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontFamily": "'JetBrainsMono Nerd Font'",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "underline",
+    "terminal.integrated.fontSize": 10,
+    "vscode_custom_css.imports": [
+        "file:///C:/Vscode-Theme/vscode.css",
+        "file:///C:/Vscode-Theme/vscode.js"
+    ],
+    "material-icon-theme.hidesExplorerArrows": true,
+    "editor.overtypeCursorStyle": "underline",
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorStyle": "underline",
+    "catppuccin-icons.hidesExplorerArrows": true,
+    "catppuccin-icons.associations.folders": {},
+    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": {
+            "source": "PowerShell",
+            "icon": "terminal-powershell"
+        },
+        "Command Prompt": {
+            "path": [
+                "${env:windir}\\Sysnative\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
+            ],
+            "args": [],
+            "icon": "terminal-cmd"
+        },
+        "Git Bash": {
+            "source": "Git Bash"
+        },
+        "Windows PowerShell": {
+            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe"
+        }
+    },
+    "git.enableSmartCommit": true,
+    // Vim KeyMaps && Configure
+    "vim.useSystemClipboard": true,
+    "vim.useCtrlKeys": true,
+    "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-w>": false,
+        "<C-b>": false,
+        "<C-r>": false
+    },
+    "editor.codeActionsOnSave": {
+        "quickfix.insertSemicolon": "always"
+    },
+    "workbench.settings.applyToAllProfiles": [],
+    "[dart]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": false,
+        "editor.suggest.insertMode": "replace",
+        "editor.defaultFormatter": "Dart-Code.dart-code",
+        "editor.inlayHints.enabled": "offUnlessPressed",
+    },
+    "editor.formatOnSave": true,
+    "git.confirmSync": false,
+    "dart.showInspectorNotificationsForWidgetErrors": false,
+    "dart.previewFlutterUiGuides": true,
+    "emulator.emulatorPathWindows": "C:\\Users\\XyrelTenz\\AppData\\Local\\Android\\Sdk\\emulator",
+    "emulator.emulatorPath": "C:\\Users\\XyrelTenz\\AppData\\Local\\Android\\Sdk\\emulator",
+    "workbench.colorTheme": "5fb9c0a4-e613-457c-97a5-6204f9076cef",
+    "editor.fontSize": 25,
+    "explorer.compactFolders": false,
+    "files.refactoring.autoSave": false,
+    "ridiculousCoding.shakeAmplitude": 2,
+    "ridiculousCoding.reducedEffects": true,
+    "ridiculousCoding.shake": false,
+}
